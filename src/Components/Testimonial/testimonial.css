@@ -1,6 +1,8 @@
-#root { height: 100% }
+#root {
+  height: 100%;
+}
 
-.clients{
+.clients {
   text-align: center;
   color: gold;
   padding: 2rem;
@@ -8,7 +10,7 @@
 }
 
 body {
-  background: rgb(8, 8 , 8);
+  background: rgb(8, 8, 8);
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;

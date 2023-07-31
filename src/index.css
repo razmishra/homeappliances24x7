@@ -23,7 +23,6 @@ ul {
   list-style-type: none;
 }
 
-
 .btn {
   padding: 0;
   font-size: 1rem;
@@ -33,7 +32,7 @@ ul {
   border: 1px solid #fff;
   font-weight: 600;
   cursor: pointer;
-  size:20px
+  size: 20px;
 }
 
 .btn-light {

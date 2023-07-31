@@ -1,80 +1,78 @@
-
-.pricing{
-    width: 100%;
-    padding: 6rem 1rem;
-    background: black;
+.pricing {
+  width: 100%;
+  padding: 6rem 1rem;
+  background: black;
 }
 
-.card-container{
-    max-width: 1140px;;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap: 30px;
+.card-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
 }
 
-.card{
-    border: 1px solid #eee;
-    color: #eee;
-    text-align: center;
-    padding: 1rem;
-    width: 100%;
+.card {
+  border: 1px solid #eee;
+  color: #eee;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
 }
 
-.card-container
-.card:hover{
-    background-color: #141414;
-    transform: scale(1.05);
+.card-container .card:hover {
+  background-color: #141414;
+  transform: scale(1.05);
 }
 
-.pricing h2{
-    color:yellowgreen;
-    text-align: center;
-    margin-top: -2rem;
-    padding-bottom: 2rem;
-    font-size: 2rem;
+.pricing h2 {
+  color: yellowgreen;
+  text-align: center;
+  margin-top: -2rem;
+  padding-bottom: 2rem;
+  font-size: 2rem;
 }
-.card h3{
-    font-size: 1.4rem;
-    padding: 1rem;
-    color: gold;
+.card h3 {
+  font-size: 1.4rem;
+  padding: 1rem;
+  color: gold;
 }
 
-.card p{
-    padding: 10px 0;
-    text-align: left;
-    word-spacing: 2px;
-    font-size: large;
-    font-weight: 500;
+.card p {
+  padding: 10px 0;
+  text-align: left;
+  word-spacing: 2px;
+  font-size: large;
+  font-weight: 500;
 }
 
 .pro-btns .btn {
-    align-items: center;
-    /* justify-content: center; */
-    width: 100%;
-    padding: 0.5rem 1rem;
-    /* align-items: center; */
-    text-align: center;
+  align-items: center;
+  /* justify-content: center; */
+  width: 100%;
+  padding: 0.5rem 1rem;
+  /* align-items: center; */
+  text-align: center;
 }
 
-.card .btn{
-    font-size: 20px;
-    margin-top: auto;
+.card .btn {
+  font-size: 20px;
+  margin-top: auto;
 }
 
-.card .callus{
-    width: 100%;
+.card .callus {
+  width: 100%;
 }
 
 @media screen and (max-width: 1149px) {
-  .card-container{
+  .card-container {
     max-width: 90%;
     margin: auto;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (max-width: 740px) {
-  .card-container{
+  .card-container {
     max-width: 90%;
     margin: auto;
     grid-template-columns: 1fr;

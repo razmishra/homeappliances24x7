@@ -1,15 +1,9 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
 import "./testimonial.css";
-
-// import required modules
 import { Parallax, Pagination, Navigation } from "swiper/modules";
 
 export default function Testimonials() {
@@ -35,7 +29,7 @@ export default function Testimonials() {
           className="parallax-bg"
           style={{
             "background-image": `url('./testimonial.jpg')`,
-            "opacity":'0.4'
+            opacity: "0.4",
           }}
           data-swiper-parallax="-23%"
         ></div>
@@ -87,7 +81,7 @@ export default function Testimonials() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-          Sneha Gupta
+            Sneha Gupta
           </div>
           <div className="text" data-swiper-parallax="-100">
             <p>

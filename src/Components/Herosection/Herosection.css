@@ -37,7 +37,7 @@
 }
 
 .hero .content h2 {
-  color:yellow;
+  color: yellow;
   font-size: 4rem;
   padding: 0.6rem 0 1.5;
 }
@@ -66,32 +66,30 @@
   .hero .content h2 {
     font-size: 2.4rem;
   }
-  
 }
 
 @media screen and (max-width: 741px) {
   .hero .content h2 {
     font-size: 2.2rem;
   }
-  
-    .hero .content h2 {
-      font-size: 2.2rem;
-    }
-    
-    .hero .content h2 {
-      font-size: 2.2rem;
-    }
-    
-    .hero .content h2 {
-      font-size: 2.2rem;
-    }
-    
-    .hero .content p {
-      font-size: 1.2rem;
-    }
-    
+
+  .hero .content h2 {
+    font-size: 2.2rem;
   }
-  /* @media screen and (max-width: 562px) {
+
+  .hero .content h2 {
+    font-size: 2.2rem;
+  }
+
+  .hero .content h2 {
+    font-size: 2.2rem;
+  }
+
+  .hero .content p {
+    font-size: 1.2rem;
+  }
+}
+/* @media screen and (max-width: 562px) {
   .hero .content h2 {
     font-size: 1.8rem;
   }
@@ -109,7 +107,7 @@
   }
 } */
 
-  /* @media screen and (max-width: 357px) {
+/* @media screen and (max-width: 357px) {
   .hero .content h2 {
     font-size: 1.2rem;
   }

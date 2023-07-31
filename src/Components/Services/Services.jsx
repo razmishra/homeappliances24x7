@@ -46,7 +46,7 @@ const Services = () => {
             <div className="pro-details">
               <p>{service.description}</p>
               <div className="pro-btns btn">
-                  <MdCall size={30} />
+                <MdCall size={30} />
                 <a href={phone} className="btn">
                   CALL US
                 </a>

@@ -23,10 +23,9 @@
   padding: 1rem;
 }
 
-
-.contact .left .heading{
-    padding: 2rem 0;
-    font-size: 1.6rem;
+.contact .left .heading {
+  padding: 2rem 0;
+  font-size: 1.6rem;
 }
 
 .contact .right {
@@ -37,9 +36,9 @@
   font-size: 1.2rem;
 }
 
-.left a:hover{
-    transform: scale(1.05);
-    text-decoration: underline;
+.left a:hover {
+  transform: scale(1.05);
+  text-decoration: underline;
 }
 
 .contact .left .call,

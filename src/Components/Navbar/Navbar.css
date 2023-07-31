@@ -67,8 +67,7 @@
 }
 
 @media screen and (max-width: 318px) {
-  .header h1{
+  .header h1 {
     font-size: 1.5rem;
   }
-  
 }
