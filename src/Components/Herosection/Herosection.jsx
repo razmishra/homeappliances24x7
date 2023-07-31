@@ -9,7 +9,7 @@ const Herosection = () => {
       </div>
       <div className="content">
         <h2>Welcome to</h2>
-        <h2>Home Appliences</h2>
+        <h2>Home Appliances</h2>
         <p> We are here to help you 24x7</p>
       </div>
     </div>

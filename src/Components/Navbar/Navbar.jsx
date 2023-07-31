@@ -31,12 +31,12 @@ const Navbar = () => {
         </li>
         <li>
           <ScrollLink to="about" smooth={true} duration={500}>
-            about
+            About
           </ScrollLink>
         </li>
         <li>
           <ScrollLink to="services" smooth={true} duration={500}>
-            services
+            Services
           </ScrollLink>
         </li>
         <li>
