@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link as ScrollLink } from "react-scroll";
 
@@ -22,20 +21,28 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       <ScrollLink to="home" smooth={true} duration={500}>
-        <h1>Home Appliences</h1>
+        <h1>Home Appliances</h1>
       </ScrollLink>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <ScrollLink to="home" smooth={true} duration={500}>Home</ScrollLink>
+          <ScrollLink to="home" smooth={true} duration={500}>
+            Home
+          </ScrollLink>
         </li>
         <li>
-          <ScrollLink to="about" smooth={true} duration={500}>about</ScrollLink>
+          <ScrollLink to="about" smooth={true} duration={500}>
+            about
+          </ScrollLink>
         </li>
         <li>
-          <ScrollLink to="services" smooth={true} duration={500}>services</ScrollLink>
+          <ScrollLink to="services" smooth={true} duration={500}>
+            services
+          </ScrollLink>
         </li>
         <li>
-          <ScrollLink to="contact" smooth={true} duration={500}>Contact</ScrollLink>
+          <ScrollLink to="contact" smooth={true} duration={500}>
+            Contact
+          </ScrollLink>
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
