@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Email Template</title>
+    <style>
+      .watermark {
+        width: 100px;
+        height: 100px;
+        border-radius: 10%;
+      }
+      .heading{
+        display: flex;
+        align-items: center;
+        gap:10px
+      }
+      body {
+         /* background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover; */
+        font-family: Arial, sans-serif;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        position: relative; /* This is required to position content over the background image */
+      }
+      h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      span {
+        color: #007bff;
+      }
+      p {
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+      .line {
+        width: 100%;
+        border-bottom: 2px solid #ccc;
+        margin: 10px 0;
+      }
+      .field {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 10px 0;
+      }
+      .input-field {
+        font-size: 16px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        padding: 5px;
+      }
+      .image-responsive {
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="heading">
+
+      <h1>Hello <span>Home Appliences!</span></h1>
+    </div>
+    <p>One new inquiry is received on your website.</p>
+    <div class="line"></div>
+    <p class="field"><b>Name:</b></p>
+    <div class="input-field">{name}</div>
+
+    <p class="field"><b>Email:</b></p>
+    <div class="input-field">{email}</div>
+
+    <p class="field"><b>Phone:</b></p>
+    <div class="input-field">{phone}</div>
+
+    <p class="field"><b>Message:</b></p>
+    <div class="input-field">{message}</div>
+  </body>
+</html>
