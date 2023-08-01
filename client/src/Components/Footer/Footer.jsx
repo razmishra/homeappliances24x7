@@ -8,7 +8,7 @@ const Footer = () => {
         <AiOutlineCopyright size={20} style={{ color: "white" }} />
       </div>
       <div>
-        <p>homeappliences24x7.com All Rights Reserved</p>
+        <p>homeappliances24x7.com All Rights Reserved</p>
       </div>
     </div>
   );
