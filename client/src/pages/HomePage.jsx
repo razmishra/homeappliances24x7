@@ -6,6 +6,8 @@ import About from "../Components/About/About";
 import Services from "../Components/Services/Services";
 import Testimonials from "../Components/Testimonial/Testimonials";
 import Contact from "../Components/Contact/Contact";
+// import Inquiry from "../Components/Inquiry/Inquiry";
+import Registration from "../Components/Registration/Registration";
 
 const HomePage = () => {
   return (
@@ -15,6 +17,8 @@ const HomePage = () => {
       <About />
       <Services />
       <Testimonials />
+      {/* <Inquiry /> */}
+      <Registration />
       <Contact />
       <Footer />
     </>
